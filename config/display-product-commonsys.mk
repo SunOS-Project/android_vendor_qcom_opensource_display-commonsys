@@ -1,9 +1,5 @@
-PRODUCT_PACKAGES += libdisplayconfig.system \
-                    libgralloc.system.qti \
+PRODUCT_PACKAGES += libgralloc.system.qti \
                     libdrm \
-                    liblayerext.qti \
-                    libsmomoconfig.qti \
-                    libcomposerextn.qti \
                     libdisplayconfig.system.qti
 
 SOONG_CONFIG_NAMESPACES += qtidisplaycommonsys
